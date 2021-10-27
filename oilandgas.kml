@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<NetworkLink>
+	<name>KYOilGas/KYOilGasWells_SZ</name>
+	<open>1</open>
+	<LookAt>
+		<longitude>-84.49177892115773</longitude>
+		<latitude>38.97528433657922</latitude>
+		<altitude>0</altitude>
+		<heading>0</heading>
+		<tilt>0</tilt>
+		<range>225712.5533306084</range>
+	</LookAt>
+	<Region>
+		<LatLonAltBox>
+			<north>90</north>
+			<south>-90</south>
+			<east>180</east>
+			<west>-180</west>
+			<minAltitude>0</minAltitude>
+			<maxAltitude>0</maxAltitude>
+		</LatLonAltBox>
+		<Lod>
+			<minLodPixels>128</minLodPixels>
+			<maxLodPixels>-1</maxLodPixels>
+			<minFadeExtent>0</minFadeExtent>
+			<maxFadeExtent>0</maxFadeExtent>
+		</Lod>
+		<LatLonBox>
+<north>39.14907223271835</north>
+<south>36.44102592022295</south>
+<east>-81.85219169464841</east>
+<west>-89.46515912936545</west>
+</LatLonBox>
+	</Region>
+	<Link>
+		<href>https://kgs.uky.edu/arcgis/rest/services/KYOilGas/KYOilGasWells_SZ/MapServer/export?</href>
+		<viewRefreshMode>onStop</viewRefreshMode>
+		<viewRefreshTime>2</viewRefreshTime>
+		<viewFormat>f=kmz&amp;bboxSR=4326&amp;imageSR=4326&amp;format=png24&amp;transparent=true&amp;bbox=[bboxWest],[bboxSouth],[bboxEast],[bboxNorth]&amp;size=[horizPixels],[vertPixels]&amp;</viewFormat>
+	</Link>
+</NetworkLink>
+</kml>
